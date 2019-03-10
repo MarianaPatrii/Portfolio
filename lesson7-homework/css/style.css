@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    background-color: #648cff;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+@media all and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+footer {
+    height: 90px;
+    padding: 32px 0;
+    background-color: #648cff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.main {
+    height: 100vh;
+    padding-top: 0; 
+    padding-bottom: 18vh; 
+    margin-bottom: 90px;
+    background: url('../img/phone-image2.png') center no-repeat;
+    /* background-size:; */
+    color: #fff;
+}
+.main .col {
+    width: 50%;
+    float: left;
+}
+
+.main .title-main {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.main .text-main {
+    font-size: 18px;
+    line-height: 1.66;
+    margin-bottom: 55px;
+}
+.main .btn-link {
+    width: 158px;
+    height: 52px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 52px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* .main .link-appstore {
+    background-color: #fc6a42;
+}
+
+.main .link-google-play {
+    background-color: #4466c9;
+} */
+
+.main .align {
+    text-align: center;
+}
+
+.main .align img {
+    height: 60vh;
+}
+footer .logo {
+    float: left;
+    padding-right: 5px; 
+    font-size: 24px;
+    font-weight: 700;
+    color: #fc6a42;
+    text-transform: uppercase;
+}
+footer .logo1 {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4466c9;
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer .menu {
+    float: left;
+}
+
+footer .menu li {
+    padding: 0 40px;
+}
+@media all and (max-width: 1200px) {
+    footer .menu li {
+        padding: 0 30px;
+    }
+}
+footer .menu a {
+    font-size: 18px;
+    color: #e1e1e1;
+}
+
+footer .menu a:hover {
+    color: #fff;
+}
+
+footer .social-network {
+    float: left;
+}
+
+footer .social-network li {
+    padding: 0 20px;
+}
+@media all and (max-width: 1200px) {
+    footer .social-network li {
+        padding: 0 15px;
+    }
+}
+

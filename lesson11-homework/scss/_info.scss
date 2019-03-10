@@ -1,0 +1,30 @@
+.block_info {
+    margin-left: 80px;
+    height: 100vh;
+    @include flex-center;
+    .text-box {
+        @include flex-start;
+        width: 45%;
+        .text-top {
+            @include text-1;
+        }
+        .text-main {
+            @include text-2;
+        }
+        a {
+            text-decoration: none;
+        }
+        .button {
+            @include flex-center;
+            width: 170px;
+            height: 40px;
+            background: $button-color;
+            border-radius: 20px;
+            @include text-button;
+            margin-top: 50px;
+        }
+    }
+    .map {
+        max-width: 100%;
+    }
+}
